@@ -40,3 +40,8 @@ nav {
 .activity-col {
     padding: 10px;
 }
+
+.fluid {
+    width: 100%;
+    height: auto;
+}
