@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Exploring electric vehicles.">
-    <title>Thunder Driving</title>
+    <title>truck</title>
     <link rel="stylesheet" href="css/mystyle.css">
     <!-- Bootstrap icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
@@ -25,26 +25,30 @@
         h2 {
             font-family: "Times New Roman", Times, serif;
         }
+
+        /* Add some spacing between sections */
+        section {
+            margin-bottom: 40px;
+        }
     </style>
 </head>
 
 <body id="front_page">
     <!-- Navigation-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #99ccff;">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-info">
         <div class="container-fluid px-10">
-            <a class="navbar-brand fw-bold" href="index.html"><img src="img/logo.png" alt="lightning wheel" width="60"
-                    height="60">
+            <a class="navbar-brand fw-bold" href="https://jl835.github.io/thunder_driving/">
+                <img src="img/logo.png" alt="lightning wheel" width="60" height="60">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdown"
-                aria-controls="dropdown" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="bi-list"></i>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="dropdown">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg" href="sedan.html">Sedans</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg" href="suv.html">SUVs</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg" href="truck.html">Trucks</a></li>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#Sedans">Sedans</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#SUV">SUVs</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#Trucks">Trucks</a></li>
                 </ul>
             </div>
         </div>
@@ -52,41 +56,82 @@
 
     <main>
         <header>
-            <img src="img/moon_headerr.jpg" alt="Moon Header">
             <div class="container">
-                <h1>Thunder Driving</h1>
+                <h1>Electric Trucks</h1>
+            </div>
+        </header>
 
-             <!-- ---------------all about Trucks ------------------ -->
+        <!-- ---------------all about Trucks ------------------ -->
+        <section id="truck" class="container">
+            <!-- Example for the first truck -->
+            <div class="row mb-4">
+                <!-- Image on the left -->
+                <div class="col-md-6">
+                    <img src="FordF150Lightning.jpg" alt="cheapest" class="img-fluid">
+                </div>
+                <!-- List on the right -->
+                <div class="col-md-6">
+                    <h3>Ford F-150 Lighting</h3>
+                    <ul>
+                        <li>Brand: Ford</li>
+                        <li>Range: 320 miles</li>
+                        <li>Marketed Price: $49,995</li>
+                        <li>Why We Recommend: the classic Ford F-150 that everyone knows and loves, but now electric.
+                            Despite still being expensive for being the "cheapest" truck. Its an EV truck that can do more
+                            them just get the job done and is the easiest to buy, due to Ford's manufacturing power to
+                            push them to the public. I've personally seen them already at dealers, ready to buy.</li>
+                    </ul>
+                </div>
+            </div>
 
-             <img src="FordF150Lightning.jpg" alt="cheapest">
+            <!-- Example for the second Truck -->
+            <div class="row mb-4">
+                <!-- Image on the left -->
+                <div class="col-md-6">
+                    <img src="r1t.jpg" alt="mid-range" class="img-fluid">
+                </div>
+                <!-- List on the right -->
+                <div class="col-md-6">
+                    <h3>Rivian R1T</h3>
+                    <ul>
+                        <li>Brand: Rivian</li>
+                        <li>Range: 400 miles</li>
+                        <li>Marketed Price: $73,000</li>
+                        <li>Why We Recommend: The new chip on the block, Rivian. Compared to the other truck
+                            companies/manufacturers. Rivian is a fairly new and is ready to make a name for itself with
+                            this R1T. It's a great truck with long range and many storage compartments. Another EV truck
+                            I've seen personally that many owners agree that it is a great truck and are happy with their
+                            choice.</li>
+                    </ul>
+                </div>
+            </div>
 
-             <h3>Ford F-150 Lighting</h3>
-         
-              <ul>
-                 <li>Brand: Ford</li>
-                 <li>Range: 320 miles</li>
-                 <li>Marketed Price: $49,995</li>
-                 <li>Why We Recommend: the classic Ford F-150 that everyone knows anbd loves, but now electric. Despite still being expensive for being the "cheapest" truck. Its an EV truck that can do more them just get the job done and is the easiest to buy, due to Ford's manufactering power to push them to the public. I've personlly seen them already at dealers, ready to buy.</li>
-             </ul>
-         
-             <img src="r1t.jpg" alt="mid-range">
-         
-             <h3>Rivian R1T</h3>
-         
-             <ul>
-                 <li>Brand: Rivian</li>
-                 <li>Range: 400 miles</li>
-                 <li>Marketed Price: $73,000</li>
-                 <li>Why We Recommend: The new chip on the block, Rivian. Compared to the other truck comapnies/manufactors. Rivian is a farily new and is ready to make a name for itself with this R1T. It's a great truck with long range and many storage comparments. Another EV truck I've seen personally that many owners agree that it is a great truck and are happy with their choice.</li>
-             </ul>
-         
-             <img src="GMCHummerEVPickup.jpg" alt="expensive">
-         
-             <h3>GMC Hummer EV Pick-up</h3>
-         
-             <ul>
-                 <li>Brand: GMC</li>
-                 <li>Range: 329 miles</li>
-                 <li>Marketed Price: $98,400</li>
-                 <li>Why We Recommend: This is a car that is slightly diffcult to recommend. Largely due to the cheaper trucks can do just as much as the Hummer maybe even bettet in some areas. However, driving in a 9,063 pound truck with a 1000 horse power, and great resale value. It is still a major powerhouse in the EV truck industry.</li>
-             </ul>
+            <!-- Example for the third Truck -->
+            <div class="row mb-4">
+                <!-- Image on the left -->
+                <div class="col-md-6">
+                    <img src="GMCHummerEVPickup.jpg" alt="expensive" class="img-fluid">
+                </div>
+                <!-- List on the right -->
+                <div class="col-md-6">
+                    <h3>GMC Hummer EV Pick-up</h3>
+                    <ul>
+                        <li>Brand: GMC</li>
+                        <li>Range: 329 miles</li>
+                        <li>Marketed Price: $98,400</li>
+                        <li>Why We Recommend: This is a car that is slightly difficult to recommend. Largely due to the
+                            cheaper trucks can do just as much as the Hummer maybe even better in some areas. However,
+                            driving in a 9,063 pound truck with a 1000 horse power, and great resale value. It is still a
+                            major powerhouse in the EV truck industry.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-aBnX8JsrMNHA3fSLSU1CIWQpxhaeFXPzR15WHAxMpOtDDGKtnY7CdbUa9PaXhKJ"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384
