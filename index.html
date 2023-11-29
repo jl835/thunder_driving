@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,7 +22,8 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
-        h1,h3 {
+        h1,
+        h3 {
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
     </style>
@@ -51,9 +53,24 @@
 
     <main>
         <header>
-            <img src="img/car_header.jpg" alt="car driving scene" class="img-fluid">
-            <div class="container">
+            <img src="img/car_header.jpg" alt="car driving scene" class="fluid">
+            <div class="container top">
                 <h1>Thunder Driving</h1>
+            </div>
+            <div class="container bot">
+                <p> <em>Wheels of Tomorrow, Today</em></p>
+            </div>
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="d-block container-fluid px-10">
+                        <ul class="navbar-nav mr-auto my-2 my-lg-0">
+                            <li class="nav-item"><a class="nav-link me-lg" href="#why">Why EV's?</a></li>
+                            <li class="nav-item"><a class="nav-link me-lg" href="#money">Money Help</a></li>
+                            <li class="nav-item"><a class="nav-link me-lg" href="#consider">Considerations</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
             </div>
         </header>
         <section id="why" class="background">
@@ -80,14 +97,23 @@
             </article>
         </section>
 
-        <section class="container">
-            <article class="activity-row">
+        <section id="money" class="bg_3">
+            <article class="activity-row container">
                 <div class="activity-col">
                     <h3>Money Help</h3>
                     <p>
-                       Getting a new vehicle is expensive, and the same goes for EV's; however, the government wants to help. If you're planning on buying a new EV, or previously purchased one in the current year, you can be eligible for up to $7,500 in credit. One main catch is that the rebate is for specific models, and it includes either fuel cell EV's or plug-in EV's. There are a couple of incentives availabile, <a href="https://driveclean.ca.gov/search-incentives">you can find some here</a>. One incentive program for residents in California is the Clean Vehicle Rebate Project, however it is not accepting new applicants as of November 8 2023.  </p>
-                    <div style="text-align:center">  
-                    <a role="button" class="btn btn-outline-success" href="https://fueleconomy.gov/feg/tax2023.shtml">Check Your Elegibility</a>
+                        Getting a new vehicle is expensive, and the same goes for EV's; however, the government wants to
+                        help. If you're planning on buying a new EV, or previously purchased one in the current year,
+                        you can be eligible for up to $7,500 in credit. One main catch is that the rebate is for
+                        specific models, and it includes either fuel cell EV's or plug-in EV's. There are a couple of
+                        incentives availabile, <a href="https://driveclean.ca.gov/search-incentives">you can find some
+                            here</a>. One incentive program for residents in California is the Clean Vehicle Rebate
+                        Project, however it is not accepting new applicants as of November 8 2023.
+
+                    </p>
+                    <div style="text-align:center">
+                        <a role="button" class="btn btn-outline-success"
+                            href="https://fueleconomy.gov/feg/tax2023.shtml">Check Your Elegibility</a>
                     </div>
                 </div>
                 <div class="activity-col">
@@ -96,13 +122,13 @@
             </article>
         </section>
 
-        <section id="webb" class="background2">
+        <section id="consider" class="background2">
             <article class="activity-row container">
                 <div class="activity-col">
                     <h3>Considerations</h3>
                     <img src="img/charge.jpg" alt="car charging" class="img-fluid">
                 </div>
-                <div class="activity-col"> 
+                <div class="activity-col">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tristique lorem eu nulla
                         facilisis ullamcorper. Suspendisse eget urna ipsum, a ullamcorper sapien. Mauris dignissim
@@ -119,7 +145,9 @@
     <footer>
         &copy; Thunder Driving
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
