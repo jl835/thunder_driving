@@ -15,15 +15,19 @@ nav {
 }
 
 .background {
-    padding: 40px;
+    padding: 42px;
     background-color: darkslategray;
     color: white;
 }
 
 .background2 {
-    padding: 40px;
+    padding: 42px;
     background-color: midnightblue;
     color: white;
+}
+
+.bg_3{
+    padding: 42px;
 }
 
 .container {
@@ -48,4 +52,8 @@ nav {
 footer{
     padding:20px;
     text-align: center;
+}
+
+.bot{
+text-align: center;
 }
