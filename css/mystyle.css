@@ -1,32 +1,35 @@
 header img {
     width: 100%;
 }
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
 
 h1 {
     text-align: center;
 }
+
 h2 {
     text-align: center;
 }
+
 nav {
     text-align: center;
 }
 
-.background{
-    background-color: indigo;
+.background {
+    padding: 30px;
+    background-color: darkslategray;
     color: white;
 }
-.background2{
+
+.background2 {
+    padding: 30px;
     background-color: midnightblue;
     color: white;
 }
+
 .container {
-    margin-top: 0;
+    margin-top: 30px;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-left: auto;
 
     max-width: 960px;
